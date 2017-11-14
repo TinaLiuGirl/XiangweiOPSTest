@@ -1,0 +1,37 @@
+{
+  "build_entry_point": "docs",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+       {
+      "docset_name": "Docset",
+      "build_source_folder": "Docset",
+      "build_output_subfolder": "Docset",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+     "template_folder": "_themes.TechNet.Modern"
+    }
+  ],
+  "notification_subscribers": [
+    "v-caxian@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "master"
+  ],
+  "git_repository_url_open_to_public_contributors": "",
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    }
+  ],
+  "need_generate_pdf_url_template": false
+}
